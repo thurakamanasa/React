@@ -44,16 +44,59 @@
 
 
 
-import React from 'react';
-//import {store} from './Reducer/store';
+// import React from 'react';
+// //import {store} from './Reducer/store';
 
-//import { Provider } from 'react-redux'
-import ETApp from './ET/ETApp'
+// //import { Provider } from 'react-redux'
+// \import ETApp from './ET/ETApp'
+
+// const App = () => {
+//   return (
+//     <div>
+//     <ETApp/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+// import { store } from './redux/Store'
+// import { Provider } from 'react-redux'
+// const App = () => {
+//     return (
+//         <div>
+//             <Provider store={store}>
+//                 <h1>App Component</h1>
+//                 <hr />
+                
+//             </Provider>
+//         </div>
+//     )
+// }
+
+//  export default App
+
+
+import React from 'react'
+import Contact from './contact'
+import FetchCard from './FetchCard'
+import RefsDemo from './RefsDemo'
+import FoodApp from './FoodApp'
+import Users from './Users'
 
 const App = () => {
   return (
     <div>
-    <ETApp/>
+
+{ <FetchCard/> }
+{        
+        <FetchCard/> }
+        { <Users/>  }
+        { <FoodApp/> }
+        { <Contact/> }
+         {<RefsDemo/>}
     </div>
   )
 }
