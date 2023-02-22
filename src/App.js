@@ -80,29 +80,29 @@
 
 
 import React from 'react'
-import Contact from './contact'
-import FetchCard from './FetchCard'
-import RefsDemo from './RefsDemo'
+// import Contact from './contact'
+// import FetchCard from './FetchCard'
+// import RefsDemo from './RefsDemo'
 import FoodApp from './FoodApp'
-import Users from './Users'
+// //import Users from './Users'
+
 
 const App = () => {
   return (
     <div>
 
-{ <FetchCard/> }
+{/* { <FetchCard/> }
 {        
         <FetchCard/> }
-        { <Users/>  }
-        { <FoodApp/> }
-        { <Contact/> }
-         {<RefsDemo/>}
-    </div>
+        // { <Users/>  } */}
+         { <FoodApp/>}
+        
+        {/* { <Contact/> }
+         {<RefsDemo/>} */}
+     </div>
   )
 }
-
 export default App
+ 
 
 
-
-                    
