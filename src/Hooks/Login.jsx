@@ -7,12 +7,7 @@ const Login = () => {
     let updateCheckBox = (event) => {
         refBtn.current.disabled = !event.target.checked
     }
-
-    
-
-   
-    
-  return <div className ="container mt-5">
+    return <div className ="container mt-5">
         <div className ="row">
             <div className = "col-5">
                 <div className = "card">

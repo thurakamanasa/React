@@ -48,17 +48,17 @@
 // //import {store} from './Reducer/store';
 
 // //import { Provider } from 'react-redux'
-import ETApp from './ET/ETApp'
+// \import ETApp from './ET/ETApp'
 
-const App = () => {
-  return (
-    <div>
-    <ETApp/>
-    </div>
-  )
-}
+// const App = () => {
+//   return (
+//     <div>
+//     <ETApp/>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
 
 
 
