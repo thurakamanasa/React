@@ -46,22 +46,7 @@
 
 // import React from 'react';
 // //import {store} from './Reducer/store';
-
-// //import { Provider } from 'react-redux'
-import ETApp from './ET/ETApp'
-
-const App = () => {
-  return (
-    <div>
-    <ETApp/>
-    </div>
-  )
-}
-
-export default App
-
-
-
+//import { Provider } from 'react-redux'
 // import { store } from './redux/Store'
 // import { Provider } from 'react-redux'
 // const App = () => {
@@ -75,7 +60,6 @@ export default App
 //         </div>
 //     )
 // }
-
 //  export default App
 
 
@@ -106,20 +90,39 @@ export default App
  
 
 
-import React from 'react'
-import State from './Hooks/State'
-import State1 from './Hooks/State1'
-import State2 from './Hooks/State2'
-import StateEX from './Hooks/StateEX'
+// import React from 'react'
+// import State from './Hooks/State'
+// import State1 from './Hooks/State1'
+// import State2 from './Hooks/State2'
+// import StateEX from './Hooks/StateEX'
 
-const App = () => {
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <State/> */}
+//       {/* <StateEX/> */}
+//       {/* <State1/> */}
+//         <State2/>
+        
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+import React from 'react'
+//import Classto from './PropsEx/Classto'
+import Fun1 from './PropsEx/Fun1'
+//import Class1 from './PropsEx/Class1'
+ function App () {
   return (
     <div>
-      {/* <State/> */}
-      {/* <StateEX/> */}
-      {/* <State1/> */}
-        <State2/>
-        
+      {/* <Classto/> */}
+      {/* <Class1/> */}
+      <Fun1/>
     </div>
   )
 }
