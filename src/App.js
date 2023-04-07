@@ -114,15 +114,19 @@
 
 
 import React from 'react'
+import Useeffect from './Hooks/Useeffect'
 //import Classto from './PropsEx/Classto'
-import Fun1 from './PropsEx/Fun1'
+//import Fun1 from './PropsEx/Fun1'
+//import Fungo from './PropsEx/Fungo'
 //import Class1 from './PropsEx/Class1'
  function App () {
   return (
     <div>
       {/* <Classto/> */}
       {/* <Class1/> */}
-      <Fun1/>
+      {/* <Fun1/> */}
+      {/* <Fungo/> */}
+      <Useeffect/>
     </div>
   )
 }
