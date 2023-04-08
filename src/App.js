@@ -114,7 +114,8 @@
 
 
 import React from 'react'
-import Useeffect from './Hooks/Useeffect'
+//import Useeffect from './Hooks/Useeffect'
+import Food1 from './FoodApp/Food1'
 //import Classto from './PropsEx/Classto'
 //import Fun1 from './PropsEx/Fun1'
 //import Fungo from './PropsEx/Fungo'
@@ -126,7 +127,8 @@ import Useeffect from './Hooks/Useeffect'
       {/* <Class1/> */}
       {/* <Fun1/> */}
       {/* <Fungo/> */}
-      <Useeffect/>
+      {/* <Useeffect/> */}
+      <Food1/>
     </div>
   )
 }
