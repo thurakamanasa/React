@@ -1,11 +1,24 @@
 import React, { Component } from 'react'
 
-export class extends Component {
+ class Message extends Component {
+    state = {
+        message : "hello"
+    }
+    gmHandler =() =>{
+        this.setState({message : "hello Good morning"})
+    }
+    gnHandler =() =>{
+        this.setState({message : "hello Good ni8"})
+    }
   render() {
     return (
-      <div>Class</div>
+      <div>
+<h2>message: {this.state.message}</h2>
+<button onClick={this.gmHandler} >gm</button>
+<button onClick={this.gnHandler} >gn</button>
+      </div>
     )
   }
 }
 
-export default Class
+export default Message
